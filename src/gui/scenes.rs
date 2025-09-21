@@ -457,6 +457,12 @@ impl Default for Scenes {
                         content: include_str!("../../scenes/flat_triple_portal.ron"),
                         hidden: false,
                     },
+                    Scene {
+                        name: "Example (by cuongvd)",
+                        link: "example",
+                        content: include_str!("../../scenes/example.ron"),
+                        hidden: false,
+                    },
                 ],
             },
         ])
